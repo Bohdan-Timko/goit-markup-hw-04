@@ -202,7 +202,7 @@ ul {
     rgba(47, 48, 58, 0.4),
     rgba(47, 48, 58, 0.4)
   );
-  background-image: url(../images/background.png);
+  background-image: url(../images/background.jpg);
 }
 .hero-title {
   color: var(--white);
@@ -357,9 +357,14 @@ ul {
   background-color: #fff;
   border-radius: 50%;
 }
+
 .social-link:hover .social-icons-svg,
 .social-link:focus .social-icons-svg {
-  fill: var(--accent-text-cl);
+  fill: var(--white);
+}
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--accent-text-cl);
 }
 .social-icons-svg {
   width: 20px;
